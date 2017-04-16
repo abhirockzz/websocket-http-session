@@ -5,7 +5,7 @@ import javax.servlet.ServletRequestListener;
 import javax.servlet.annotation.WebListener;
 import javax.servlet.http.HttpServletRequest;
 
-@WebListener
+@WebListener //thanks to http://stackoverflow.com/questions/20240591/websocket-httpsession-returns-null
 public class ServletRequestListenerImpl implements ServletRequestListener {
 
     @Override
