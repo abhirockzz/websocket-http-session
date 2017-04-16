@@ -55,7 +55,7 @@ public class WebSocketEndpointConcurrencyTest {
     final static int NUM_OF_USERS = 3;
 
     @Test
-    public void accessTodefaultEndpointIsSerialized() throws InterruptedException, DeploymentException, IOException {
+    public void test() throws InterruptedException, DeploymentException, IOException {
         final WebSocketContainer webSocketContainer = ContainerProvider.getWebSocketContainer();
         final TestClient testClient = new TestClient();
 
